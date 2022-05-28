@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: "Gentium Book Basic";
+  background-image: url("/favicon.png");
+  background-color: #000;
+}
+
+.main {
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+  width: 50%;
+  padding: 0px 15px;
+}
+.main * {
+  margin: 15px;
+}/*# sourceMappingURL=index.css.map */
