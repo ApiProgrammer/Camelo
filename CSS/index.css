@@ -18,7 +18,6 @@ button {
   padding: 5px;
   cursor: pointer;
   margin: 0px !important;
-  display: inline-block;
   float: right;
 }
 button .emoji {
@@ -65,6 +64,10 @@ button .emoji {
 }
 .main .changelog header h1 {
   color: var(--ct);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: inline-block;
 }
 .main .changelog:hover {
   box-shadow: 0px 0px 10px var(--shadow);
