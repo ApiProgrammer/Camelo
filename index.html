@@ -7,13 +7,28 @@
     <meta name="og:image" content="/favicon.png"/>
     <meta name="og:title" content="cameloismo"/>
     <link rel="shortcut icon" href="favicon.png" type="image/png"/>
+    <link rel="stylesheet" href="/CSS/dark.css" id="theme">
+    <script src="/JS/theme.js"></script>
     <link rel="stylesheet" href="/CSS/index.css"/>
+    <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
     <title>Cameloismo</title>
 </head>
 <body>
     <div class="main">
-        <h1>bem vindo ao site oficial da igreja cameloista</h1>
-        <p>ainda tou trabalhando no site então espere por algo melhor no futuro! não se esqueça de visitar todo dia!! :)</p>
+        <h1>Bem vindo ao site oficial da igreja cameloista</h1><button id="buton" onclick="invertTheme()">🌚</button>
+        <script>document.getElementById('buton').innerText = localStorage.getItem('DarkTheme') == 'true' ? '🌚' : '🌞'</script>
+        <p>&bull; Ainda tou trabalhando no site então espere por algo melhor no futuro! não se esqueça de visitar todo dia!! :)</p>
+        <div class="changelog">
+            <header>
+                <h1>Changelog</h1>
+            </header>
+            <ol>
+                <li>✨Modernizei✨ o design do site (só um pouco)</ul>
+                <li>Adicionei tema escuro 🌚</li>
+            </ol>
+        </div>
     </div>
+
+    <script src="/JS/twemoji.js"></script>
 </body>
 </html>
