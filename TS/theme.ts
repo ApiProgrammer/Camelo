@@ -23,4 +23,5 @@ const invertTheme = () => {
         default:
             localStorage.setItem('DarkTheme', 'true')
     }
+    location.reload()
 }

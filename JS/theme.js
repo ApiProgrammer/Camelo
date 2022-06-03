@@ -18,4 +18,5 @@ var invertTheme = function() {
         default:
             localStorage.setItem("DarkTheme", "true");
     }
+    location.reload();
 };

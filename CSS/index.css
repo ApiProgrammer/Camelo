@@ -13,10 +13,16 @@ body {
 
 button {
   border-style: none;
-  background-color: var(--shadow);
-  border-radius: 8px;
+  background-color: var(--border);
+  border-radius: 50%;
   padding: 5px;
   cursor: pointer;
+  margin: 0px !important;
+  display: inline-block;
+  float: right;
+}
+button .emoji {
+  margin: 0px !important;
 }
 
 .emoji {
@@ -35,7 +41,7 @@ button {
   left: 50%;
   transform: translateX(-50%);
   height: 100%;
-  width: 50%;
+  width: 80%;
   padding: 0px 15px;
 }
 .main * {
@@ -52,8 +58,13 @@ button {
   padding: 0px;
   border-bottom: solid 1px var(--border);
 }
+.main .changelog header .octicon {
+  float: right;
+  fill: var(--ct);
+  cursor: pointer;
+}
 .main .changelog header h1 {
-  color: var(--border);
+  color: var(--ct);
 }
 .main .changelog:hover {
   box-shadow: 0px 0px 10px var(--shadow);
